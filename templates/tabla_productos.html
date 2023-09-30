@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<body>
+    <h1>Lista de Productos y Precios</h1>
+    <ul>
+        {% for product in products %}
+        <li>
+
+            <label for="nombre">Nombre del Producto:</label>
+            <input id="nombre" name="nombre" value="{{ product.nombre_articulo }}">
+            <label for="precio">Precio:</label>
+            <input id="precio" name="product" value="{{ product.precio }}">
+            <label for="envio">Valor de envio:</label>
+            <input id="envio" name="product" value="{{ product.precio_envio }}">
+
+
+        </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
