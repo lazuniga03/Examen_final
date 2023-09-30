@@ -8,6 +8,7 @@
 6. Licencia
 
 
+
 ## 1.	 INFORMACIÓN GERENAL
    El Proyecto consiste en realizar scrapping a una pagina web, en este caso se selecciono la pagina de EBAY específicamente al apartado de venta de relojes, se trabaja con selenium  y los datos se presentan con Flask
    haciendo uso de un computador con sistema operativo Windows 10.
